@@ -19,11 +19,11 @@ At present, the only corpora being made available are n-gram corpora (for n=1 to
 
 ## Format
 The format of each corpus borrows from the formatting of Google's Ngram dataset files:
-Each line contains one record, terminated by a newline.
-Each record contains n+2 space-separated fields:
-* The first n fields contain the n-gram itself.
-* The n+1th field indicates the date of the n-gram, rounded up to the next century. (So an n-gram from a text from 750 will have '800' in this field. The date is intended as a terminus ad quem for the work)
-* The n+2th field indicates the count number of times the n-gram appeared across all texts within the given century.
+* Each line contains one record, terminated by a newline.
+* Each n-gram record contains n+2 space-separated fields:
+** The first n fields contain the n-gram itself.
+** The n+1th field indicates the date of the n-gram, rounded up to the next century. (So an n-gram from a text from 750 will have '800' in this field. The date is intended as a terminus ad quem for the work)
+** The n+2th field indicates the count number of times the n-gram appeared across all texts within the given century.
 
 ## License
 These corpora are contributed to the public domain and licensed under CC0 1.0 Universal.
