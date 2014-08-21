@@ -12,12 +12,12 @@ The texts have been stripped of markup and cleaned up somewhat. Then they were s
 ## Contents
 At present, the only corpora being made available are n-gram corpora (for n=1 to 5). These are provided in four sets:
 
-| set                           | date range | directory        | records | tokens  |
-|-------------------------------|------------|------------------|--------:|--------:|
-| Old High German (Ahd.)        | 750-1000   | /Ahd/ngrams      | 10904   | 54471   |
-| Middle High German (Mhd.)     | 1000-1400  | /Mhd/ngrams      | 83189   | 1187089 |
-| Early New High German (Fnhd.) | 1400-1600  | /Fnhd/ngrams     | 92602   | 976925  |
-| all three of the foregoing    | 750-1600   | /combined/ngrams | 186695  | 2218485 |
+| set                           | date range | directory        | unique tokens | 1-grams | 2-grams | 3-grams | 4-grams | 5-grams |
+|-------------------------------|------------|------------------|--------------:|--------:|--------:|--------:|--------:|--------:|
+| Old High German (Ahd.)        | 750-1000   | /Ahd/ngrams      | 54471         | 10904   | 38516   | 49859   | 49947   | 47326   |
+| Middle High German (Mhd.)     | 1000-1400  | /Mhd/ngrams      | 1187089       | 83189   | 586122  | 1001540 | 1052231 | 992440  |
+| Early New High German (Fnhd.) | 1400-1600  | /Fnhd/ngrams     | 976925        | 92602   | 543008  | 851157  | 888457  | 862754  |
+| all three of the foregoing    | 750-1600   | /combined/ngrams | 2218485       | 186695  | 1167646 | 1902556 | 1990635 | 1902520 |
 
 ## Format
 The format of each corpus borrows from the formatting of Google's Ngram dataset files:
