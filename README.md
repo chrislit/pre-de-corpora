@@ -27,5 +27,7 @@ The format of each corpus borrows from the formatting of Google's Ngram dataset 
    2. The n+1th field indicates the date of the n-gram, rounded up to the next century. (So an n-gram from a text from 750 will have '800' in this field. The date is intended as a terminus ad quem for the work)
    3. The n+2th field indicates the count number of times the n-gram appeared across all texts within the given century.
 
+In contrast to Google's format, initial tokens from each clause are preceded by a <BOS> token and final tokens are followed by an <EOS> token. There is also no data pertaining to part of speech or the number of unique texts in which particular tokens/n-grams appear.
+
 ## License
 These corpora are contributed to the public domain and licensed under CC0 1.0 Universal.
