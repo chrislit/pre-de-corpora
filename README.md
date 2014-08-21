@@ -3,9 +3,11 @@ pre-de-corpora
 
 pre-Neuhochdeutsch corpora
 
-This is a set of corpora of pre-Neuhochdetusch German texts. The sources for these data are (most of the) pre-17th century German texts from Biblioteca Augustana (http://www.hs-augsburg.de/~harsch/germanica/Chronologie/d_chrono.html) and Wikisource (https://de.wikisource.org/).
+This is a set of corpora of pre-Neuhochdetusch German texts. The sources for these data are (most of the) pre-17th century German texts from:
+* Biblioteca Augustana (http://www.hs-augsburg.de/~harsch/germanica/Chronologie/d_chrono.html)
+* Wikisource (https://de.wikisource.org/)
 
-The texts have been stripped of markup and cleaned up (somewhat). Then they were split into clauses by a script with very coarse heuristics, sometimes quite inaccurately. These sentences were Unicode normalized (to NFC) and lowercased.
+The texts have been stripped of markup and cleaned up somewhat. Then they were split into clauses by a script with very coarse heuristics, sometimes quite inaccurately. These sentences were Unicode normalized (to NFC) and lowercased.
 
 ## Contents
 At present, the only corpora being made available are n-gram corpora (for n=1 to 5). These are provided in four sets:
