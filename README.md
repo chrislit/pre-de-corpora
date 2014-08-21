@@ -12,9 +12,9 @@ At present, the only corpora being made available are n-gram corpora (for n=1 to
 
 | set                           | date range | directory        |
 |-------------------------------|------------|------------------|
-| Old High German (Ahd.)        | 750-1000   | /goh/ngrams      |
-| Middle High German (Mhd.)     | 1000-1400  | /gmh/ngrams      |
-| Early New High German (Fnhd.) | 1400-1600  | /gfh/ngrams      |
+| Old High German (Ahd.)        | 750-1000   | /Ahd/ngrams      |
+| Middle High German (Mhd.)     | 1000-1400  | /Mhd/ngrams      |
+| Early New High German (Fnhd.) | 1400-1600  | /Fnhd/ngrams      |
 | all three of the foregoing    | 750-1600   | /combined/ngrams |
 
 ## Format
